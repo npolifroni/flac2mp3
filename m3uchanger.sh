@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 sourcef=${1}
 targetf=${2}
 numparams=($#)
@@ -11,9 +9,6 @@ if [ $numparams -lt 2 ]; then
     exit;
 fi
 
-
-lines=$(cat "${sourcef}")
-counter=0
 
 while read line ; 
 do 
